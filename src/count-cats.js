@@ -8,6 +8,5 @@ module.exports = function countCats(backyard) {
       if (cell === '^^') count++;
     });
   });
-
   return count;
 };
